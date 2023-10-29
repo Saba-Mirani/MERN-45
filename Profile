@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>making profile</title>
+	<!--<link rel="stylesheet" type="text/css" href="profile.css">!-->
+	<style type="text/css">
+		body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container
+{
+	height: 100vh;
+	width: 100%;
+	background: #ffff;
+}
+
+.header
+{
+	width: 100%;
+	height: 100px;
+	background: #e9ebee;
+	border: 1px;
+}
+}
+.menubar {
+	margin-top: 8px;
+	height: 20px;
+	width: 20px;
+	padding-left: 10px;
+
+}
+.github{
+	margin-top: 8px;
+	margin-bottom: 0px;
+	padding-left: 5px;
+	height: 40px;
+	width: 40px;
+}
+/*.s-box {
+	margin-top: 0px;
+	margin-left: 800px;
+	padding: 5px;
+	border: 1px color: transparent;
+	border-radius: 5px;
+	background-color: transparent;
+}
+.s-icon{
+	height: 20px;
+	width: 20px;
+	margin-left: 1132px;
+	margin-top: 0px;	
+}*/
+/*.header2 {
+	justify-content: space-between: 20px;
+	display: inline-block;
+}*/
+h1, h4 {
+	margin-top: 0px;
+	font-family: Calibri;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-top: 0px;
+	display: inline-block;	
+}
+.dp{
+	margin-top: 40px;
+	margin-left: 60px;
+	height: 340px;
+	width: 350px;
+	border-radius: 50%;
+}
+p { margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 50px;
+	font-size: 26px;
+	font-family: Calibri;
+	color: grey;
+}
+.btn {
+	width: 300px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 0px;
+	border-radius: 5px;
+}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+	<img src="menu-48.png" class="menubar">
+	<img src="github-30.png" class="github">
+	<h1> Saba-Mirani</h1>
+	<!--<img src="search-50.png" class="s-icon">
+	<input type="text" name="" class="s-box" placeholder="Type / to search">-->
+	<div class="header2">
+	<img src="read-30.png" class="overview"><h4>Overview</h4>
+	<img src="repository-24.png" class="repository"><h4>Repository</h4>
+	<img src="project-32.png" class="project"><h4>Project</h4>
+	<img src="box-24.png" class="package"><h4>Package</h4>
+	<img src="star-26.png" class="Star"><h4>Stars</h4>
+	</div>
+	</div>
+<img src="dp.jpeg" class="dp"><p>Saba-Mirani</p>
+<button class="btn" type="submit" name="">Edit Profile</button>
+</div>
+</body>
+</html>
